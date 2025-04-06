@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Firstext",
+  "version": "1.0",
+
+  "description": "nothing yet defined here",
+  
+  "icons": {
+    "48": "icons/beasts-48.png"
+  },
+
+
+
+  "content_scripts": [
+    {
+       "matches": [
+   "https://1xbet.kz/*"
+],
+
+
+
+
+
+      "js": ["third.js"]
+    }
+  ]
+}
+
